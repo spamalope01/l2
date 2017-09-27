@@ -1,0 +1,8 @@
+.landingUpper {
+  background: url('../Images/EngineeringBackground.jpg') no-repeat fixed;
+  background-size: 100%;
+  height: 50em;
+  /*border: 1px solid black;*/
+  display: flex;
+  align-items: center;
+}
