@@ -1,3 +1,7 @@
+h1, h2, p {
+  font-family: 'Raleway', sans-serif;
+}
+
 .landingUpper {
   background: url('../Images/EngineeringBackground.jpg') no-repeat fixed;
   background-size: 100%;
@@ -5,6 +9,7 @@
   /*border: 1px solid black;*/
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 header {
@@ -33,10 +38,16 @@ header {
   margin-top: 1%;
 }
 
+.landingTiles {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+}
+
 .tileOne {
   padding: 1%;
   border: 1px solid grey;
-  width: 26.6%;
+  width: 24%;
   margin-left: 5%;
   float: left;
   border: 1px solid black;
@@ -51,7 +62,7 @@ header {
 .tileTwo {
   padding: 1%;
   border: 1px solid grey;
-  width: 26.6%;
+  width: 24%;
   margin-left: 5%;
   margin-right: 5%;
   float: left;
@@ -63,10 +74,11 @@ header {
   border-radius: 5px;
   background-color: #F5F5F5;
 }
+
 .tileThree {
   padding: .5%;
   border: 1px solid grey;
-  width: 26.6%;
+  width: 24%;
   margin-right: 5%;
   float: left;
   border: 1px solid black;
