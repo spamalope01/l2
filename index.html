@@ -9,6 +9,7 @@
   crossorigin="anonymous"></script>
   <link rel="stylesheet" href="app/Styles/normalize.css">
   <link rel="stylesheet" href="app/Styles/base.css">
+  <link rel="stylesheet" href="app/Styles/contact_form.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- <link rel="stylesheet" href="Styles/layout.css"> -->
   </head>
@@ -56,31 +57,49 @@
 
       <section class="lowerLanding">
         <div class="lowerWrapper">
-          </div>
-
-          <section class="quickContact">
+          <section class="quickContact column half">
             <h2>Contact Us</h2>
             <!-- Required Div Starts Here -->
             <form id="form">
-            <p id="returnmessage"></p>
-            <label>Name: <span>*</span></label>
-            <input type="text" id="name" placeholder="Name"/>
-            <label>Email: <span>*</span></label>
-            <input type="text" id="email" placeholder="Email"/>
-            <label>Contact No: <span>*</span></label>
-            <input type="text" id="contact" placeholder="10 digit Mobile no."/>
-            <label>Message:</label>
-            <textarea id="message" placeholder="Message......."></textarea>
-            <input type="button" id="submit" value="Send Message"/>
+              <p id="returnmessage"></p>
+              <label>Name: <span>*</span>
+              <input type="text" id="name" placeholder="Name"/></label>
+              <label>Email: <span>*</span>
+              <input type="text" id="email" placeholder="Email"/></label>
+              <label>Contact No: <span>*</span>
+              <input type="text" id="contact" placeholder="10 digit Mobile no."/></label>
+              <label>Message:
+              <textarea id="message" placeholder="Message......."></textarea></label>
+              <input type="button" id="submit" value="Send Message"/>
             </form>
           </section>
 
-          <aside class="sideContact">
-            <!-- contact info, address, phone, email goes here.  -->
-          </aside>
-        </section>
+          <section class="sideContact column right">
+            <div class="verticalLine">
+              <div class="address">
+                <h2>MAILING ADDRESS</h2>
+                <p>1234 your street</p>
+                <p>woodinville, WA 99999</p>
+              </div>
+              <br>
+              <div class="phone">
+                <h2>PHONE</h2>
+                <p>444-666-6666</p>
+              </div>
+              <br>
+              <div class="email">
+                <h2>EMAIL</h2>
+                <p>l2@gmail.com</p>
+              </div>
+            </div>
+          </section>
+          </div>
+
+      </section>
     </main>
+
   </body>
+  <!-- <footer>this is a footer</footer> -->
   <!-- <script type="text/javascript" src="Scripts/app.js"></script> -->
   <!-- <script type="text/javascript" src="Scripts/smoothscroll.js"></script> -->
 </html>
