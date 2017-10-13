@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 //Fetching Values from URL
 $name = $_POST['name1'];
 $email = $_POST['email1'];
@@ -38,4 +38,4 @@ echo "Your Query has been received, We will contact you soon.";
 echo "<span>* invalid email *</span>";
 }
 
-?>
+?> -->
