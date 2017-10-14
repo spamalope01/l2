@@ -46,9 +46,10 @@ header {
 }
 
 .tileOne {
-  padding: 1%;
+  /*padding: 1%;*/
   border: 1px solid grey;
   width: 24%;
+  height: 17.5em;
   margin-left: 5%;
   float: left;
   border: 1px solid black;
@@ -57,13 +58,17 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
+  background: url('../Images/home.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .tileTwo {
-  padding: 1%;
+  /*padding: 1%;*/
   border: 1px solid grey;
   width: 24%;
+  height: 17.5em;
   margin-left: 5%;
   margin-right: 5%;
   float: left;
@@ -73,13 +78,17 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
+  background: url('../Images/you.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .tileThree {
-  padding: .5%;
+  /*padding: .5%;*/
   border: 1px solid grey;
   width: 24%;
+  height: 17.5em;
   margin-right: 5%;
   float: left;
   border: 1px solid black;
@@ -88,7 +97,10 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
+  background: url('../Images/us.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .lowerLanding {
