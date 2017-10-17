@@ -4,16 +4,22 @@
   "description": "Loshbaugh Engineering Business Website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spamalope01/l2.git"
+  },
+  "dependencies": {
+    "express": "^4.2",
+    "nodemailer": "^4.2.0"
   },
   "author": "Jonathan Daniel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spamalope01/l2/issues"
   },
-  "homepage": "https://github.com/spamalope01/l2#readme"
+  "homepage": "https://github.com/spamalope01/l2#readme",
+  "devDependencies": {}
 }
